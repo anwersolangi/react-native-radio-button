@@ -74,7 +74,7 @@ const FilterScreen = props => {
        <Text style={styles.radioText}>Female: </Text>
        <RadioButton checked={femaleCheck} onPress={femaleRadioHandler} />
         </View>
-      <Button title="Done" onTouch={onPressHandler} />
+      <Button title="Done" onPress={onPressHandler} />
       </View>
     )
 }
